@@ -1,7 +1,6 @@
 /* WATS 3020 Browser Game project */
 /* Build a tic tac toe game for two players. */
 
-
 class player {
     constructor(token){
         this.token = token;
@@ -237,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function(event){
 
 document.addEventListener('draw', function(event){
     console.log('Detected draw event.');
-    gam.showDrawScreen();
+    game.showDrawScreen();
 });
 // NOTE: End of the "draw" event listener.
 
